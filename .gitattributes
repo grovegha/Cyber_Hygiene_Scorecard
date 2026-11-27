@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Ensure Linux shell scripts and Python files always use LF line endings
+# (Prevents '/bin/bash^M: bad interpreter' when switching between Windows & Linux)
+*.sh text eol=lf
+*.py text eol=lf
