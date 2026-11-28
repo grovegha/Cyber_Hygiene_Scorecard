@@ -1,16 +1,16 @@
-# 🛡️ Cyber Hygiene Scorecard
+# Cyber Hygiene Scorecard
 > **Mini PBL — Build Cybersecurity for Humans**  
 > **Kelompok:** WARRGA BULAN | **Kelas:** Malam 1A  
 > **Program Studi:** Rekayasa Keamanan Siber — Politeknik Negeri Batam (2026)
 
 ---
 
-## 📌 Tentang Proyek
+## Tentang Proyek
 **Cyber Hygiene Scorecard** adalah aplikasi interaktif berbasis **Python CLI (Command Line Interface)** yang dijalankan melalui terminal Linux untuk membantu mahasiswa dan pengguna digital pemula mengevaluasi kebiasaan keamanan siber sehari-hari secara mandiri.
 
 Pengguna menjawab **10 pertanyaan kebiasaan digital** yang terbagi ke dalam **5 kategori keamanan**, lalu program menghitung skor keseluruhan maupun skor per aspek, mengklasifikasikan tingkat keamanan, memberikan rekomendasi perbaikan paling prioritas, serta menyimpan laporan ringkasan lokal dengan izin akses terbatas (`chmod 600`) di Linux.
 
-> **🔒 Prinsip Privasi & Keamanan:**  
+> **Prinsip Privasi & Keamanan:**  
 > Aplikasi ini bersifat murni edukatif. Program **tidak pernah** meminta password asli, kode OTP, token, maupun identitas/data pribadi sensitif pengguna.
 
 ---
@@ -27,7 +27,7 @@ Pengguna menjawab **10 pertanyaan kebiasaan digital** yang terbagi ke dalam **5 
 
 ---
 
-## 📚 Integrasi Mata Kuliah
+## Integrasi Mata Kuliah
 
 | Mata Kuliah | Penerapan dalam Proyek |
 | :--- | :--- |
@@ -37,7 +37,7 @@ Pengguna menjawab **10 pertanyaan kebiasaan digital** yang terbagi ke dalam **5 
 
 ---
 
-## ⚙️ Rancangan Penilaian (*Scoring Rules*)
+## Rancangan Penilaian (*Scoring Rules*)
 
 * **Jumlah Pertanyaan:** 10 pertanyaan (5 kategori × 2 pertanyaan).
 * **Poin Jawaban:**
@@ -55,7 +55,7 @@ Pengguna menjawab **10 pertanyaan kebiasaan digital** yang terbagi ke dalam **5 
 
 ---
 
-## 📂 Struktur Repositori
+## Struktur Repositori
 
 Setiap anggota tim memiliki ruang kerja yang terorganisir agar pengembangan berjalan rapi dan minim konflik kode:
 
@@ -86,7 +86,7 @@ Cyber_Hygiene_Scorecard/
 
 ---
 
-## 🚀 Cara Menjalankan (Terminal Linux)
+## Cara Menjalankan (Terminal Linux)
 
 Pastikan **Python 3** sudah terpasang di lingkungan Linux kamu (`python3 --version`).
 
@@ -107,7 +107,7 @@ cat reports/<nama_file_laporan>.txt
 
 ---
 
-## 🧪 Rencana Pengujian Utama
+## Rencana Pengujian Utama
 1. Seluruh jawaban bernilai `2` menghasilkan skor akhir **`100`** (*Baik*).
 2. Seluruh jawaban bernilai `0` menghasilkan skor akhir **`0`** (*Perlu Ditingkatkan*).
 3. Kombinasi jawaban menghasilkan perhitungan skor per kategori dan total yang akurat.
