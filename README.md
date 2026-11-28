@@ -15,7 +15,7 @@ Pengguna menjawab **10 pertanyaan kebiasaan digital** yang terbagi ke dalam **5 
 
 ---
 
-## 👥 Anggota Kelompok (WARRGA BULAN)
+## Anggota Kelompok (WARRGA BULAN)
 
 | No. | Nama Anggota | NIM | Peran (*Role*) | Fokus Tanggung Jawab |
 | :-: | :--- | :---: | :--- | :--- |
